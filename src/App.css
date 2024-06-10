@@ -5,7 +5,7 @@ header {
 header input {
   padding: 8px;
   font-size: inherit;
-  width: 300px;
+  width: 240px;
   border-radius: 6px;
   border: 1px solid #333;
 }
@@ -23,6 +23,10 @@ header .button {
   padding: 8px 12px;
   cursor: pointer;
   text-decoration: none;
+}
+.loader {
+  width: 100%;
+  text-align: center;
 }
 .books-section {
   display: flex;

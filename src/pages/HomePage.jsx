@@ -31,7 +31,7 @@ const HomePage = () => {
         if (input !== "") {
           setLoading(true);
           const res = await fetch(
-            `https://openlibrary.org/search.json?q=${input.toLowerCase()}&limit=4&page=1`
+            `https://openlibrary.org/search.json?q=${input.toLowerCase()}&limit=10&page=1`
           );
           const data = await res.json();
           setBooks(data.docs);
@@ -73,7 +73,9 @@ const HomePage = () => {
       <section className="books-section">
         {loading ? (
           <>
-            <h2 style={{ textAlign: "center" }}>Loading..</h2>
+          <div className="loader">
+            <h2>Loading..</h2>
+          </div>
           </>
         ) : (
           books.map((book, id) => (
