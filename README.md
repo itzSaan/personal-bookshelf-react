@@ -6,13 +6,9 @@ Welcome to the Bookshelf Project! This application allows users to search for bo
 
 Follow these steps to set up the project locally:
 Install Dependencies:
-
-Using npm:
 npm install
 
 Start the Development Server:
-
-Using npm:
 npm start
 
 ### Prerequisites
@@ -20,7 +16,7 @@ npm start
 - Node.js (version 14.x or later)
 - npm (version 6.x or later) or yarn (version 1.x or later)
 
-### Steps
+### Steps for Clone
 
 1. **Clone the Repository:**
 
